@@ -1,0 +1,65 @@
+div{
+    border-color: #0000AF;    
+    border-width: 2px;
+    border-style: solid;
+    padding: 5px 15px 5px 20px; 
+    margin: 10px;
+}
+
+.logotipo{
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    width: 250px;
+    height: 350px;    
+    left: 70%;
+    bottom: 270px;
+}
+
+.logotipo img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-color: #0000AF;   
+}
+
+.fotografia{
+    position: relative;
+    margin: 10px 30px 10px 30px;
+    width: 250px;
+    height: 350px;
+    left: 70%;
+    bottom: 270px;
+}
+
+.fotografia img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.nivel{
+	position: relative;
+}
+
+.nivel p{
+    margin-left: 80px;
+}
+
+.nivel h2{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1{
+    text-align: center;
+    font-weight: 900;           
+}
+
+h2{
+    font-style: italic;            
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}

@@ -1,0 +1,32 @@
+.Content{
+    width: 100%;
+    margin: auto;
+    background: #f4eef8;
+    padding-bottom: 2.5%;
+}
+
+.basico, .intermedio, .avanzado{
+    width: 80%;
+    margin: auto;
+}
+
+.basico ul, .intermedio ul, .avanzado ul{
+    margin-left: 40%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Content ul li{
+    color: #000017;
+}
+.SubLista{
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.SubSubLista{
+    list-style-type: lower-roman;
+    margin-left: 5%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}

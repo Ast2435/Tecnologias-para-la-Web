@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(230, 229, 211);
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none; /*chinga tu madre text-decoration*/
+}
+
+/*CSS PARA PANTALLA PRINCIPAL*/
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(105, 100, 119);
+}
+
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#navbar li{
+    list-style: none;
+    margin-top: 10px;
+    background-color: rgb(105, 100, 119);
+    padding: 1rem;
+    height: 10vh;
+}
+
+#navbar li:hover{
+    background-color: rgb(152, 148, 165);
+    border: 1px solid white;
+}
+
+#navbar a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: snow;
+}
+
+#header{
+    background-image: url("https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    padding: 30px;
+    text-align: center;
+    color:snow;
+    height: 90vh;
+}
+
+#boton-registro-header{
+    margin-top: 50px;
+}
+
+
+#header a{
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: white;
+    font-size: 2.5rem;
+    transition: background 0.3s;
+}
+
+#header a:hover{
+    background-color:  rgb(235, 150, 39);
+}
+
+
+#tarjetas-contenedor{
+    margin-top: 20px;
+    display: flex;
+    background-color: rgba(153, 151, 149, 0.603);
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #d8dac6;
+    padding: 1rem;
+}
+
+.tarjeta img{
+    border-radius: 50%;
+    margin: 15px 0 15px 0;
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+}
+
+#footer{
+    position: relative;
+    bottom: 0;
+}
+
+#footer ul{
+
+}
+
+#footer li{
+    list-style: none;
+}
+
+#footer a{
+    text-decoration: none;
+}
+
+/*CSS PARA EL SIGNUP Y LOGIN*/
+#form-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 480px; /*SIN ESTO EL FOOTER NO SE ACOMODA BIEN EN SIGNUP/LOGIN, SE NECESITA HACER DE UNA MEJOR MANERA PRONTO */
+}
+
+#form-cont input{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.datos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-bottom: 15px;
+}
+
+.access-button{
+    margin: 15px;
+    border: none;
+    border: 1px solid black;
+    background-color: rgb(235, 150, 39);
+    width: 12rem;
+    height: 60px;
+}
+
+#link-registro{
+    margin-right: 20px;
+    text-align: right;
+    text-decoration: none;
+}

@@ -1,0 +1,111 @@
+
+body{
+	background-color: #e0e0e0;
+	font-family: "Gill Sans Extrabold", Helvetica, sans-serif;
+}
+
+#titulo{
+text-align: center;
+}
+
+#materias{
+	position: relative;
+	margin-left: 8%;
+	margin-right: 8%;
+}
+
+#indiceColores{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.asignatura{
+	position: relative;
+	/*convierte a los elementos en inline-blocks por lo que se alinean automaticamente
+	de manera horizontal dentro del flujo del documento sin necesidad de usar position */
+	display: inline-block; 
+	vertical-align: middle;
+	text-align: center;
+	font-family: "Lucida Console", sans-serif;
+	background-color: #bec1c4;
+	color: #6e6e6e;
+	font-size: 16px;
+	border: 2px black solid;
+	border-radius: 8%;
+	width: 230px;
+	height: 380px;
+	margin: 0px 15px 15px 15px;
+	box-shadow: 7px 7px 10px 1px rgba(0,0,0,0.75);
+	overflow-wrap: anywhere;
+}
+
+.semestre{
+	margin-bottom: 60px;
+}
+
+.nivel{
+	border: 5px solid #5B697A;
+	margin: 1rem;
+}
+
+.nivel h2{
+	text-align: center;
+}
+
+div.aprobada{
+	background-color: #69b863;
+	color: #000000;
+}
+
+div.reprobada{
+	background-color: #b86363;
+	color: #000000;
+}
+
+div.enCurso{
+	background-color: #6397b8;
+	color: #000000;
+}
+
+.color{
+	display: inline-block;
+	margin-left: 30px;
+}
+
+/*CSS para los cuadros de colores*/
+.cajaColor{
+	background-color: red;
+	border: 1px solid black;
+	border-radius: 8%;
+	width: 15px;
+	height: 15px;
+	margin-right: 10px;
+}
+
+div.aprobadas{
+	background-color: #69b863;
+}
+
+div.reprobadas{
+	background-color: #b86363;
+}
+
+div.noCursadas{
+	background-color: #bec1c4;
+}
+
+div.enCurso{
+	background-color: #6397b8;
+}
+
+div>img{
+	/*En esta ocasión ya que no está especificado el uso de flexbox en la practica, hago uso del posicionamiento manual absoluto
+	para que todas las imagenes dentro de todas las tarjetas de asignaturas estén en la misma posición sin importar el contenido
+	de dicho contenedor de asignatura*/
+	position: absolute;
+	top: 290px;
+	right: 25px;
+	width: 180px;
+	height: 70px;
+	object-fit: cover;
+}
